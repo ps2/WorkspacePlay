@@ -9,6 +9,11 @@
 import Foundation
 
 public class MyClass {
+    public init() {
+        print("MyClass.init()")
+
+    }
+
     public func test() {
         print("Test from MyClass instance")
     }
