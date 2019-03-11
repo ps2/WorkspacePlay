@@ -23,6 +23,7 @@
 		C1B9A053223720350059BF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B9A052223720350059BF96 /* Assets.xcassets */; };
 		C1B9A068223721180059BF96 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B9A067223721180059BF96 /* TestFramework.framework */; };
 		C1B9A06A223722F80059BF96 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B9A069223722F80059BF96 /* TestFramework.framework */; };
+		C1B9A06E2237280F0059BF96 /* TestFramework.framework in Resources */ = {isa = PBXBuildFile; fileRef = C1B9A067223721180059BF96 /* TestFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B9A06E2237280F0059BF96 /* TestFramework.framework in Resources */,
 				C1B9A053223720350059BF96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
