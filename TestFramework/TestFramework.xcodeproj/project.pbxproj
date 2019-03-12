@@ -108,9 +108,9 @@
 			productReference = C1B9A00522371F720059BF96 /* TestFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C1B9A089223736C50059BF96 /* TestFrameworkWatch */ = {
+		C1B9A089223736C50059BF96 /* TestFramework-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1B9A090223736C50059BF96 /* Build configuration list for PBXNativeTarget "TestFrameworkWatch" */;
+			buildConfigurationList = C1B9A090223736C50059BF96 /* Build configuration list for PBXNativeTarget "TestFramework-watchOS" */;
 			buildPhases = (
 				C1B9A08A223736C50059BF96 /* Headers */,
 				C1B9A08C223736C50059BF96 /* Sources */,
@@ -121,7 +121,7 @@
 			);
 			dependencies = (
 			);
-			name = TestFrameworkWatch;
+			name = "TestFramework-watchOS";
 			productName = TestFramework;
 			productReference = C1B9A093223736C50059BF96 /* TestFramework.framework */;
 			productType = "com.apple.product-type.framework";
@@ -154,7 +154,7 @@
 			projectRoot = "";
 			targets = (
 				C1B9A00422371F720059BF96 /* TestFramework */,
-				C1B9A089223736C50059BF96 /* TestFrameworkWatch */,
+				C1B9A089223736C50059BF96 /* TestFramework-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -453,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1B9A090223736C50059BF96 /* Build configuration list for PBXNativeTarget "TestFrameworkWatch" */ = {
+		C1B9A090223736C50059BF96 /* Build configuration list for PBXNativeTarget "TestFramework-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1B9A091223736C50059BF96 /* Debug */,
