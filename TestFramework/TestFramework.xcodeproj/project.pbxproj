@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C1B9A00A22371F720059BF96 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B9A00822371F720059BF96 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1B9A01122371FD10059BF96 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9A01022371FD10059BF96 /* MyClass.swift */; };
+		C1B9A08B223736C50059BF96 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B9A00822371F720059BF96 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B9A08D223736C50059BF96 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9A01022371FD10059BF96 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,10 +18,19 @@
 		C1B9A00822371F720059BF96 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		C1B9A00922371F720059BF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1B9A01022371FD10059BF96 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		C1B9A093223736C50059BF96 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B9A094223736C50059BF96 /* TestFramework copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestFramework copy-Info.plist"; path = "/Users/pete/dev/WorkspacePlay/TestFramework/TestFramework copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C1B9A00222371F720059BF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B9A08E223736C50059BF96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,6 +45,7 @@
 			children = (
 				C1B9A00722371F720059BF96 /* TestFramework */,
 				C1B9A00622371F720059BF96 /* Products */,
+				C1B9A094223736C50059BF96 /* TestFramework copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				C1B9A00522371F720059BF96 /* TestFramework.framework */,
+				C1B9A093223736C50059BF96 /* TestFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +79,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1B9A08A223736C50059BF96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B9A08B223736C50059BF96 /* TestFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +106,24 @@
 			name = TestFramework;
 			productName = TestFramework;
 			productReference = C1B9A00522371F720059BF96 /* TestFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1B9A089223736C50059BF96 /* TestFrameworkWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B9A090223736C50059BF96 /* Build configuration list for PBXNativeTarget "TestFrameworkWatch" */;
+			buildPhases = (
+				C1B9A08A223736C50059BF96 /* Headers */,
+				C1B9A08C223736C50059BF96 /* Sources */,
+				C1B9A08E223736C50059BF96 /* Frameworks */,
+				C1B9A08F223736C50059BF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFrameworkWatch;
+			productName = TestFramework;
+			productReference = C1B9A093223736C50059BF96 /* TestFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -115,12 +154,20 @@
 			projectRoot = "";
 			targets = (
 				C1B9A00422371F720059BF96 /* TestFramework */,
+				C1B9A089223736C50059BF96 /* TestFrameworkWatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C1B9A00322371F720059BF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B9A08F223736C50059BF96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,6 +182,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B9A01122371FD10059BF96 /* MyClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B9A08C223736C50059BF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B9A08D223736C50059BF96 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,7 +369,64 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1B9A091223736C50059BF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UY678SP37Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TestFramework copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.TestFramework;
+				PRODUCT_NAME = TestFramework;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1B9A092223736C50059BF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UY678SP37Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TestFramework copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.TestFramework;
+				PRODUCT_NAME = TestFramework;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +449,15 @@
 			buildConfigurations = (
 				C1B9A00E22371F720059BF96 /* Debug */,
 				C1B9A00F22371F720059BF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B9A090223736C50059BF96 /* Build configuration list for PBXNativeTarget "TestFrameworkWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B9A091223736C50059BF96 /* Debug */,
+				C1B9A092223736C50059BF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
